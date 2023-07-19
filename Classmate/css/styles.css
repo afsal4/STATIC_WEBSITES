@@ -1,0 +1,350 @@
+* {
+    font-family: sans-serif;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.section-1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.s1-div {
+    /* background-color: blue; */
+    margin: 0rem 5rem;
+}
+
+.s1-img {
+    width: 100%;
+    border-radius: 3rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.p-box {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.p1 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.p2 {
+    font-size: 2rem;
+    margin-top: 0;
+    line-height: 2.5rem;
+}
+
+.s3-div {
+    display: flex;
+    align-items: center;
+    /* background-color: lightblue; */
+    margin: 0 100px;
+}
+
+.p3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.s3-list li {
+    margin: 35px 0;
+    position: relative;
+    font-size: 1.25rem;
+}
+
+
+.s3-img {
+    margin-left: -30px;
+    width: 35rem;
+}
+
+.btn {
+    background-color: rgb(0, 30, 108);
+    color: white;
+    padding: 17px 40px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.s3-r-box {
+    /* background-color: yellow; */
+    margin-right: 80px;
+}
+
+.s3-list {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.s3-nav {
+    display: inline;
+    background-color: rgb(143, 151, 151);
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.se3n {
+    margin-left: 35px;
+}
+
+.s4-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+}
+
+.s5-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s5-div .s5-r-div,
+.s5-m-div,
+.s5-l-div,
+.svg-l,
+.svg-r,
+.s8-div-box {
+    cursor: pointer;
+}
+
+.s5 {
+    background-color: rgb(239, 245, 255);
+    padding: 10px;
+}
+
+.s9 {
+    background-image: url(https://classmateshop.com/_next/static/media/AiHomeBanner2.64b8e484.png);
+}
+
+.s8 {
+    background-color:rgb(215, 226, 255);
+    padding: 80px;
+}
+
+.s5-p-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.svg-r,
+.svg-l {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    width: 50px;
+}
+
+.s5-img0 {
+    width: 13rem;
+}
+
+.s5-p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+.marg {
+    margin: 0 -200px;
+}
+
+.s6-div,
+.s7-div {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.s6-r {
+    max-width: 500px;
+    text-align: center;
+    align-items: center;
+}
+
+.s7-l {
+    max-width: 600px;
+    text-align: center;
+}
+
+.s8-div {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.s8-div-box {
+    width: 610px;
+}
+
+.s11 {
+    height: 100vh;
+    background-color: rgb(0, 23, 34);
+}
+
+.s11-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.s11-div p {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.s11-div a {
+    color: rgb(201, 197, 202);
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+    font-size: 1.25rem;
+}
+
+body {
+    margin-top: 122px;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* height: 52px; */
+    padding: 15px 80px;
+    background-color: rgb(10, 24, 33);
+    color: white;
+    align-items: center;
+    z-index: 100;
+}
+
+.head-btn {
+    border: 2px solid white;
+    padding: 8px 20px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgb(10, 24, 33);
+    cursor: pointer;
+}
+
+.header-r {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header-l-img {
+    width: 100%;
+}
+
+.header img {
+    cursor: pointer;
+}
+
+.d {
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+.icon2 {
+    margin-left: 5px;
+}
+
+.s9 {
+    color: white;
+    padding: 50px;
+}
+
+.s9 img {
+    width: 500px;
+}
+.s9 .p2 {
+    font-weight: 700;
+}
+
+.s9 .p1 {
+    font-weight: 700;
+}
+
+.s9 .btn {
+    background-color: white;
+    color:  rgb(7, 60, 94);
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 40px;
+}
+.s12 img {
+    width: 100%;
+    height: 500px;
+}
+
+.p2h {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.star {
+    margin-bottom: 20px;
+}
+
+.prof-pic {
+    border-radius: 50px;
+}
+
+.s14 {
+    color: rgb(96, 93, 98);;
+}
+
+.block {
+    display: block;
+    margin-top: 50px;
+}
+
+.f-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+#a1,
+#a2 {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#top-m {
+    margin-top: -20px;
+}
+
+.s6 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+footer img,
+svg {
+    cursor: pointer;
+}
